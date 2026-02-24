@@ -2,11 +2,11 @@
 
 //#define GLEW_STATIC
 
-#include <GL/glew.h>
+#include <GL/glew.h>//opengl
 
-#include <GLFW/glfw3.h>
+#include <GLFW/glfw3.h>//interaccion entradas y salidas
 
-const GLint WIDTH = 800, HEIGHT = 600;
+const GLint WIDTH = 800, HEIGHT = 600; //ancho y largo de ventana
 
 // Shaders
 const GLchar* vertexShaderSource = 
@@ -44,10 +44,11 @@ int main() {
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
+	//crear una ventana
 	GLFWwindow *window = glfwCreateWindow(WIDTH, HEIGHT, "Practica 0", nullptr, nullptr);
 	
 	int screenWidth, screenHeight;
-
+	//buffer de renderizado
 	glfwGetFramebufferSize(window, &screenWidth, &screenHeight);
 
 	//Verificación de errores de creacion  ventana
@@ -111,7 +112,7 @@ int main() {
 	
 
 
-
+	//bucle dibuja lo que queramos
 	while (!glfwWindowShouldClose(window))
 	{
 		// Check if any events have been activiated (key pressed, mouse moved etc.) and call corresponding response functions
