@@ -26,6 +26,7 @@ void dibujarpata(const std::vector<glm::vec2>& posiciones, GLuint modelLoc) {
 	glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(tablero));
 	glDrawArrays(GL_TRIANGLES, 0, 36);
 
+
 	for (const auto& pos : posiciones) {
 		glm::mat4 pata = glm::mat4(1.0f);
 		// Usamos pos.x para el eje X y pos.y para el eje Z de la pata
@@ -230,7 +231,7 @@ int main() {
 
 		
 	
-	    /*model = glm::mat4(1.0f);
+	    model = glm::mat4(1.0f);
 		model = glm::translate(model, glm::vec3(0.0f, 1.0f, 0.0f));
 		model = glm::scale(model, glm::vec3(3.4f, 0.2f, 3.0f));
 
@@ -239,14 +240,14 @@ int main() {
 
 
 		
-		
-		model = glm::mat4(1);
+
+		/*model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(1.4f, 0.0f, -1.2f));
 		model = glm::scale(model, glm::vec3(0.3f, 2.0f, 0.3f));
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glDrawArrays(GL_TRIANGLES, 0, 36);
 
-		
+
 		model = glm::mat4(1);
 		model = glm::translate(model, glm::vec3(-1.4f, 0.0f, -1.2f));
 		model = glm::scale(model, glm::vec3(0.3f, 2.0f, 0.3f));
@@ -265,12 +266,12 @@ int main() {
 		glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
 		glDrawArrays(GL_TRIANGLES, 0, 36);*/
 
-		std::vector<glm::vec2> patasCuadradas = {
+		std::vector<glm::vec2> patas = {
 			{ 1.5f,  1.3f}, { -1.5f,  1.3f},
 			{ 1.5f, -1.3f}, { -1.5f, -1.3f},
-			{ 1.5f, -0.3f}
+			{ 1.5f, -0.3f},{ 0.5f, -0.3f}
 		};
-		dibujarpata(patasCuadradas, modelLoc);
+		dibujarpata(patas, modelLoc);
 	
 
 
