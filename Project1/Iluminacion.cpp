@@ -262,7 +262,7 @@ int main()
         model = glm::scale(model, glm::vec3(3.0f, 3.0f, 3.0f));
         glUniformMatrix4fv(glGetUniformLocation(lightingShader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         glBindVertexArray(VAO);
-        red_dog.Draw(shader);
+        //red_dog.Draw(shader);
         glDrawArrays(GL_TRIANGLES, 0, 36);
 
 
@@ -286,12 +286,12 @@ int main()
         glBindVertexArray(0);
 
         //LUZ DOS
-        model = glm::mat4(1.0f);
+       /* model = glm::mat4(1.0f);
         model = glm::translate(model, glm::vec3(lightPos2.x, lightPos2.y + movelightPos2, lightPos2.z));
         model = glm::scale(model, glm::vec3(0.3f));
         glUniformMatrix4fv(glGetUniformLocation(lampshader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         glBindVertexArray(VAO);
-        glDrawArrays(GL_TRIANGLES, 0, 36);
+        glDrawArrays(GL_TRIANGLES, 0, 36);*/
 
 
         // Swap the buffers

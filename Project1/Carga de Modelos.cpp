@@ -124,9 +124,10 @@ int main( )
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "view"), 1, GL_FALSE, glm::value_ptr(view));
 
         // Draw the loaded model
-        glm::mat4 model(1);
-        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        
+       
         //dog1
+        glm::mat4 model(1);
         model = glm::mat4(1);
         model = glm::translate(model, glm::vec3(0.0f, 0.6f, 2.0f));
         model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, -1.0f, 0.0f));
@@ -134,7 +135,7 @@ int main( )
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         dog.Draw(shader);
 
-        //dog2
+        ////dog2
         model = glm::mat4(1);
         model = glm::translate(model, glm::vec3(2.0f, 0.6f, 2.0f));     
         model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
@@ -143,7 +144,7 @@ int main( )
         dog.Draw(shader);
 
 
-        ///cat1
+        /////cat1
         model = glm::mat4(1);
         model = glm::translate(model, glm::vec3(0.0f, 0.6f, 2.0f));
         model = glm::rotate(model, glm::radians(90.0f), glm::vec3(0.0f, -1.0f, 0.0f));
