@@ -1,0 +1,266 @@
+# Blender 5.1.0 MTL File: 'castle.blend'
+# www.blender.org
+
+newmtl Carpet_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Carpet_Texture_baseColor.jpg
+map_Bump -bm 1.000000 Carpet_Texture_normal.jpg
+
+newmtl Chandelier_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+illum 2
+map_Kd Chandelier_Texture_baseColor.png
+map_Ke Chandelier_Texture_emissive.jpg
+map_d Chandelier_Texture_baseColor.png
+map_Bump -bm 1.000000 Chandelier_Texture_normal.jpg
+
+newmtl Door_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Door_Texture_baseColor.jpg
+map_Bump -bm 1.000000 Door_Texture_normal.jpg
+
+newmtl Floor_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Floor_Texture_baseColor.jpg
+map_Bump -bm 1.000000 Floor_Texture_normal.jpg
+
+newmtl Mini_Wall_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Mini_Wall_Texture_baseColor.jpg
+map_Bump -bm 1.000000 Mini_Wall_Texture_normal.jpg
+
+newmtl Piller_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Piller_Texture_baseColor.jpg
+map_Bump -bm 1.000000 Piller_Texture_normal.jpg
+
+newmtl Ray_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+illum 2
+map_Kd Ray_Texture_baseColor.png
+map_Ke Ray_Texture_emissive.jpg
+map_d Ray_Texture_baseColor.png
+map_Bump -bm 1.000000 Ray_Texture_normal.jpg
+
+newmtl Roof_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Roof_Texture_baseColor.jpg
+map_Bump -bm 1.000000 Roof_Texture_normal.jpg
+
+newmtl Stained_Window_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Stained_Window_Texture_baseColor.jpg
+map_Ke Stained_Window_Texture_emissive.jpg
+map_Bump -bm 1.000000 Stained_Window_Texture_normal.jpg
+
+newmtl Stained_Window_Wall_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Stained_Window_Wall_Texture_baseColor.jpg
+map_Bump -bm 1.000000 Stained_Window_Wall_Texture_normal.jpg
+
+newmtl Stairs_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Stairs_Texture_baseColor.jpg
+map_Bump -bm 1.000000 Stairs_Texture_normal.jpg
+
+newmtl Throne_Room_Asset_2
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Throne_Room_Asset_2_baseColor.jpg
+map_Bump -bm 1.000000 Throne_Room_Asset_2_normal.jpg
+
+newmtl Throne_Room_Assets
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+illum 2
+map_Kd Throne_Room_Assets_baseColor.png
+map_Ke Throne_Room_Assets_emissive.jpg
+map_d Throne_Room_Assets_baseColor.png
+map_Bump -bm 1.000000 Throne_Room_Assets_normal.jpg
+
+newmtl Wall_Texture
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Wall_Texture_baseColor.jpg
+map_Bump -bm 1.000000 Wall_Texture_normal.jpg
+
+newmtl corridor:lambert14
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Corridor Monster Prison.tga
+
+newmtl lambert11
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd CorridorDoor.tga
+
+newmtl lambert13
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd EthanBarrelUVBlood.png
+
+newmtl lambert14
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd CorridorWindowFrame.tga
+
+newmtl lambert15
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd CorridorWindow.tga
+map_d CorridorWindow.tga
+
+newmtl lambert16
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd CorridorDoorFrame.tga
+
+newmtl lambert5
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd CorridorFloor.tga
+
+newmtl lambert6
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd CorridorFloorBlood.tga
+
+newmtl lambert7
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd CorridorBricksAligned.tga
+
+newmtl lambert8
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd CorridorBars.tga
+
+newmtl lambert9
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd CorridorRoof.tga
